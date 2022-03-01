@@ -1,0 +1,80 @@
+body, html {
+    height: 100vh;
+    width: 100%;
+    margin : 0 auto;
+    font-size: 16px;
+    font-family: 'Smooch Sans', sans-serif;
+    background-color: #F6E87D;
+    color: black;
+}
+/* rgb(241, 234, 176
+#F6E87D
+#E6E9F4
+#FD4120 
+#E65F58
+#325057*/
+
+#logo {
+    margin: 15px 15px 0 15px;
+}
+
+#logo img {
+    width: 100px;
+    height: 100px;
+}
+
+header {
+    margin : 0 auto;
+    text-align: center;
+    font-size: 2.8rem;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #FD4120;
+}
+
+#keys {
+    margin: 12% auto 0 auto;
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: ;
+}
+
+.key {
+    border: 3px solid black;
+    background-color: #E6E9F4;
+    color: #FD4120;
+    border-radius: 4px;
+    text-transform: uppercase;
+    flex-basis: auto;
+    padding: 20% 15px 20px 15px;
+    margin: 12px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+#error {
+    display: none;
+}
+
+#instruct, #error {
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 15px 0;
+    height: 40px;
+    margin-bottom: 40px;
+    letter-spacing: 1px;
+}
+
+footer {
+    font-size: 1.2rem;
+    width: 100%;
+    padding: 8px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: red;
+}
+

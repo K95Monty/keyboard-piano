@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+	    <meta charset="utf-8">
+	    <title>Keyboard Piano</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+        <script src="https://kit.fontawesome.com/cae54144ac.js" crossorigin="anonymous"></script>
+        <style> @import url('https://fonts.googleapis.com/css2?family=Roboto&family=Smooch+Sans:wght@400;600&display=swap');</style> 
+	    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+	</head>
+	<body>
+        <div id="logo">
+            <img src="logo.png" alt="logo">
+        </div>
+        <header>
+		    <h1>Keyboard Piano</h1>
+        </header>
+        
+        <audio id="audio" style="display:none">
+            <source autoplay="false" src="" type="audio/mpeg">
+            Your browser does not support the audio tag.
+        </audio>
+
+        <div id="keys">
+            <button class="key" data-letter="q">q</button>
+            <button class="key" data-letter="w">w</button>
+            <button class="key" data-letter="e">e</button>
+            <button class="key" data-letter="r">r</button>
+            <button class="key" data-letter="t">t</button>
+            <button class="key" data-letter="y">y</button>
+            <button class="key" data-letter="u">u</button>
+            <button class="key" data-letter="i">i</button>
+            <button class="key" data-letter="o">o</button>
+            <button class="key" data-letter="p">p</button>
+        </div>
+        <div id="error">
+            <p>Try pressing a different key on your keyboard.</p>
+        </div>
+        <div id="instruct">
+            <p>Press or click a button on your keyboard and make some music!</p>
+        </div>
+        <footer>
+            <p>Made with , Kathy Chapman <span></span></p>
+        </footer>
+		<script src="js/app.js"></script>
+	</body>
+</html>
